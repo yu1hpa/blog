@@ -32,7 +32,7 @@ Heap overflowによって、下のチャンクの`fd`とサイズを書き換え
 
 `A*24 + 0x31 + __freehook`を与えた図。
 
-![heap-view](/2022/04-30/img/heap-view.png)
+[![Image from Gyazo](https://i.gyazo.com/3b549b3e5a42c8e50762308c481089cf.png)](https://gyazo.com/3b549b3e5a42c8e50762308c481089cf)
 
 ### 2. fdを__free_hookで書き換える
 `fd`を`__free_hook`（のアドレス）で書き換えると、`tcache`はこのようになる。
