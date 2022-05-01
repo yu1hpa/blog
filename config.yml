@@ -3,6 +3,9 @@ title: yu1hpa
 theme: PaperMod
 defaultContentLanguage: ja
 googleAnalytics: "UA-217299665-4"
+staticDir:
+  - static
+  - content/articles
 
 enableInlineShortcodes: true
 enableEmoji: true

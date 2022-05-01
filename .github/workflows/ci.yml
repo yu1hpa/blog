@@ -25,17 +25,10 @@ jobs:
       - name: Build
         run: hugo --minify
 
-
-      - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v1.2.2
+      - name: Deploy to netlify
+        uses: netlify/actions/cli@master
         with:
-          publish-dir: "./public"
-          production-branch: dev
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          deploy-message: "Deployed with GitHub Actions"
-          netlify-config-path: ./netlify.toml
+          args: deploy --dir=public --prod
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        timeout-minutes: 1
-
