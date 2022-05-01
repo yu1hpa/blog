@@ -1,0 +1,100 @@
+baseURL: "https://blog.y2a.dev/"
+title: yu1hpa
+theme: PaperMod
+defaultContentLanguage: ja
+googleAnalytics: "UA-217299665-4"
+
+enableInlineShortcodes: true
+enableEmoji: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+    disableXML: true
+
+languages:
+    ja:
+        languageName: "🇯🇵"
+        weight: 1
+        homeInfoParams:
+            Title: "Welcome!👋"
+            Content: ここでは、主にBinary exploitation / pwnなどのCTFのwriteupや、学習したことを書きます。------------If you want to see in English, you can click on the En button in the upper left corner.
+        menu:
+            main:
+                - name: AboutMe
+                  url: https://twitter.com/yu1hpa
+                  weight: 1
+                - name: Archive
+                  url: archives
+                  weight: 5
+                - name: Search
+                  url: search
+                  weight: 10
+                - name: Tag
+                  url: tags
+                  weight: 10
+    en:
+        languageName: "En"
+        homeInfoParams:
+          Title: "Welcome!👋"
+          Content: Hi, I'm yu. I mainly write blogs related to pwn / Binary exploitation and what I learned stuff.
+        weight: 2
+        menu:
+            main:
+                - name: AboutMe
+                  url: https://twitter.com/yu1hpa
+                  weight: 1
+                - name: Archive
+                  url: archives
+                  weight: 5
+                - name: Search
+                  url: search
+                  weight: 10
+                - name: Tags
+                  url: tags
+                  weight: 10
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production
+    googleAnalyticsID: "G-HEPHC0424Y"
+    title: "My blog"
+    description: "This is a blog of mine"
+    author: "Me"
+    images: "/me.png"
+    DateFormat: "2006-01-02"
+    languageAltTitle: "English"
+    ShowReadingTime: true
+    ShowShareButtons: true
+    ShowCodeCopyButtons: true
+    defaultTheme: dark
+    ShowToc: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    comments: false
+
+    # Suggest Changes to the article
+    editPost:
+        URL: "https://github.com/yu1hpa/blog/content"
+        Text: "Suggest Changes"
+        appendFilePath: true
+
+    assets:
+        favicon: "/favicon.ico"
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/yu1hpa"
+        - name: twitter
+          url: "https://twitter.com/yu1hpa"
+        - name: cryptohack
+          url: "https://cryptohack.org/user/yu1hpa"
+
