@@ -1,11 +1,9 @@
 ---
-title: "uaf4b"
+title: "uaf4b - CakeCTF2021"
 date: 2022-05-02T08:45:31+09:00
 tags: ["pwn", "CakeCTF2021", "ptr-yudai's chall"]
 draft: false
 ---
-
-# uaf4b - CakeCTF2021
 
 [uaf4b - CakeCTF2021(My solver)](https://github.com/yu1hpa/ctf-writeup/tree/master/2021/CakeCTF/uaf4b)
 
