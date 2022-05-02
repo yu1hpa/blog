@@ -5,6 +5,8 @@ tags: ["pwn", "SECCONbeginnersCTF2020", "ptr-yudai's chall"]
 draft: false
 ---
 
+[Beginner's Heap (My solver)](https://github.com/yu1hpa/ctf-writeup/tree/master/2020/SECCONBiginnersCTF/BeginnersHeap)
+
 [作問者writeup](https://ptr-yudai.hatenablog.com/entry/2020/05/24/174914#Pwn-293pts-Beginners-Heap-62-solves)
 
 # 方針
