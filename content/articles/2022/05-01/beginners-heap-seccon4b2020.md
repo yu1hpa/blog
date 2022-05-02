@@ -5,8 +5,6 @@ tags: ["pwn", "SECCONbeginnersCTF2020", "ptr-yudai's chall"]
 draft: false
 ---
 
-# Beginner's heap - SECCON beginners CTF 2020
-
 [作問者writeup](https://ptr-yudai.hatenablog.com/entry/2020/05/24/174914#Pwn-293pts-Beginners-Heap-62-solves)
 
 # 方針
