@@ -3,6 +3,9 @@ title: "RicercaCTF2023 感想"
 date: 2023-04-22T23:42:11+09:00
 tags: ["RicercaCTF", "pwn", "web", "misc"]
 draft: false
+cover:
+  image: https://i.gyazo.com/c0adb3d1b0a67604dfbf0f9272ec9281.png
+  relative: true
 ---
 
 # はじめに
